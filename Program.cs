@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace MyFIrstConsoleApp
 {
@@ -6,18 +6,11 @@ namespace MyFIrstConsoleApp
     {
         static void Main(string[] args)
         {
-
-            /**string str = Console.ReadLine();
-            Console.WriteLine(str);
-            int num = System.Console.Read();// returns ascii value 
-            Console.WriteLine("Sum is {0}",num1+num2); //{0} placeholder for index no.(0) of referred variable
-             **/
             int num1, num2;
             Console.WriteLine("Enter a value");
 
             num1 = Int32.Parse(Console.ReadLine());
             num2 = Int32.Parse(Console.ReadLine());
-            //AddNum(num1,num2);
             GreatestOfTwo(num1, num2);
         }
         static void AddNum(int num1, int num2)
